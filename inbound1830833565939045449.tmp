@@ -1,0 +1,11 @@
+n = int(input ("please enter a decimal number: "))
+b = []
+while (n!= 0):
+    r = n% 2
+    b.append(r)
+    n = n// 2
+b.reverse()
+for i in range(0,len(b)):
+    b[i]=int (b[i])
+    print (b[i],end="")
+
