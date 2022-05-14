@@ -1,0 +1,13 @@
+file1=open('D:\\binary.txt','r')
+file2=open('D:\\user.txt','w')
+ok=0
+for i in file1:
+    print(i[:i.index('=')])
+    s=input('enter ans :')
+    if s == i[i.index('='):].rstrip() :
+        ok=ok+1
+name=input('enter username: ')
+print(name,'answer on',ok,'from 20 ')
+file2.write(name+'\t' +str(ok))
+file1.close()
+file2.close()
