@@ -1,0 +1,6 @@
+Grad =["mahmoud","maher","ali","zein","batool"]
+name =input ("enter a name:")
+if name in Grad :
+    print (name,"is graduated")
+else :
+    print (name,"is not graduated")
