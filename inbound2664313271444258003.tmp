@@ -1,0 +1,5 @@
+l =["Network","Math","Programming","Physics","Music"]
+check = 'P'
+print ("the original list" + str(l))
+result = [elem for elem in l if elem[0].lower()==check.lower()]
+print ("the matching word with the P letter:" + str(result))
